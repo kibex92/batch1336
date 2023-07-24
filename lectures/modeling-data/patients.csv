@@ -1,0 +1,4 @@
+id,name,age,cured,room_id
+1,Deyvison,22,false,1
+2,Leonard,24,false,1
+3,Nader,26,true,2
