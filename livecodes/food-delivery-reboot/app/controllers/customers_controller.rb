@@ -6,7 +6,7 @@ class CustomersController
     @customer_repository = customer_repository
     @view = CustomersView.new
   end
-  
+
   def list
     # 1. Get the meals from the meal_repository
     customers = @customer_repository.all

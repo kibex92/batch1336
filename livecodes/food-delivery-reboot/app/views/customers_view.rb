@@ -9,5 +9,4 @@ class CustomersView
     puts "What's the #{input}"
     gets.chomp
   end
-
 end

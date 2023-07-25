@@ -12,18 +12,18 @@ class MealRepository
   def all
     @meals
   end
-  
+
   def find(id)
     @meals.find { |meal| meal.id == id }
   end
-  
+
   def create(meal)
     meal.id = @next_id
     @next_id += 1
     @meals << meal
     save_csv
   end
-  
+
   private
 
   def load_csv
